@@ -1,0 +1,17 @@
+@media (max-width:768px){
+    .head-title{
+        text-align: center;
+    }
+    .list-image{
+        display: block;
+    }
+    .list-image .img{
+        width: calc(100% - 33px);
+    }
+    .list-product{
+        display: block;
+    }
+    .list-product .product{
+        width: calc(100% - 33px);
+    }
+}

@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+main{
+    margin: auto;
+    width: 37%;
+    padding: 5% ;
+}
+.head-mock{
+    width: 100%;
+    border-style: solid;
+    border-bottom: none;
+}
+.list{
+    width: 100%;
+    border-style: solid;
+}
+.purple{
+    max-width: 100%;
+    margin-left: 13px;
+    border-style: solid;
+    background-color: purple;
+    margin-right: 13px;
+    height: 90px;
+    margin-top: 10px;
+}
+.list-product{
+    max-width: 100%;
+    display: flex;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.product{
+    width: calc((100% -26px)/3);
+    margin-top: 20px;
+    border-style: solid;
+    margin-left: 13px;
+    background-color: red; 
+    height: 400px;
+    margin-bottom: 13px;
+}
+.product:nth-child(2){
+    background-color: green;
+}
+.product:last-child{
+    background-color: orange;
+}
+.product:nth-child(1){
+    margin-left: 0;
+}

@@ -1,0 +1,27 @@
+@media (max-width:1024px){
+    .mock{
+        text-align: center;
+    }
+    .list{
+        padding: 0 20px 0 0;
+    }
+    .product{
+        width: 100%;
+    }
+    .item:first-child{
+        width:calc((100%-10px)/2) ;
+    }
+    .item:last-child{
+        width:calc((100%-10px)/2) ;
+
+    }
+@media (max-width:600px){
+    .product{
+        display: block;
+    }
+    .item{
+        width: 100%;
+    }
+}
+
+}

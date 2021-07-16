@@ -1,0 +1,41 @@
+.main{
+    padding: 5%;
+    margin: auto;
+    width: 40%;
+}
+.mock p{
+    border-style: solid;
+}
+.list{
+    margin-top: -19px;
+    border-style: solid;
+}
+.item{
+    border-style:solid ;
+    margin-top: 20px;
+    height: 100px;
+}
+.item:first-child{
+    margin-left: 20px;
+    width: 140px;
+    background-color:red;
+}
+.item:last-child{
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 492px;
+    background-color:blue;
+}
+.product:last-child{
+    margin: 0 20px;
+    border-style:solid ;
+    margin-top: 20px;
+    height: 100px;
+    width: 92%;
+    background-color: yellow;
+    margin-bottom: 40px;
+}
+.product{
+    display: flex;
+}

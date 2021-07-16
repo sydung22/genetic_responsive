@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/14/21/9a/14219af674318e6c0320ec916449b79f.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.header .logo img{
+    padding-top:10px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.header .logo{
+    display: grid;
+}
+.logo p{
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(238, 197, 16);
+    font-style: italic;
+    font-size: 22px;
+}
+.nav{
+    margin-top: 20px;
+    margin-left: 24%;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li a{
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 20px;
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+main{
+    display: flex;
+}
+.content{
+    width: 75%;
+    background-color: #DCDCDC;
+    padding-bottom: 10%; 
+}
+.content h2{
+    margin-top: 20px;
+    margin-bottom: -7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.sidebar{
+    width: 25%;
+    background-color: white;
+}
+.footer{
+    background-color: black;
+    width: 100%;
+}
+.menu-footer{
+    display: flex;
+}
+.footer .design-tag{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.footer .col-menu ul li a{
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 16px;
+    text-transform: unset;
+    list-style-type: none;
+}
+.col-menu ul li:first-child{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.col-menu ul li:last-child{
+    display: flex;
+}
+.col-menu ul li img{
+    width: 40px;
+    height: 40px;
+}
+.footer .col-menu{
+    margin: auto;
+    margin-top: 10px;
+}
+.footer .col-menu:last-child{
+    margin-top: 10px;
+}
+.list-item{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.item img{
+    width: 400px;
+    height: 300px;
+}
+.item:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 12px 10px #888888;
+}
+.item{
+    margin-left: 50px;
+    border-style: none;
+    background-color: white;
+    margin-top: 45px;
+}
+.item p{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+.product{
+    display: flex;
+    margin-left: 10px;
+    border: 2px black solid;
+    margin-top: 10px;
+    width: 95%;
+}
+.product-item img{
+    width: 170px;
+    height: 120px;
+    margin-bottom: -4px;
+}
+.product-item p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.product:hover{
+    transform: scale(1.005);
+    box-shadow: 5px 10px 8px #888888;
+}
+.list-title{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
